@@ -1,0 +1,141 @@
+/* Method 1: Setting font properties */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+}
+
+/* Method 2: Setting background properties */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Method 3: Setting text properties */
+h1 {
+    color: #009688;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Method 4: Setting padding and margin */
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Method 5: Setting border properties */
+.box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Method 6: Setting width and height */
+.box {
+    width: 200px;
+    height: 150px;
+}
+
+/* Method 7: Setting display property */
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Method 8: Setting position property */
+.box {
+    position: relative;
+}
+
+/* Method 9: Setting float property */
+.float-left {
+    float: left;
+    width: 50%;
+}
+
+.float-right {
+    float: right;
+    width: 50%;
+}
+
+/* Method 10: Setting visibility property */
+.hidden {
+    visibility: hidden;
+}
+
+/* Method 11: Setting opacity property */
+.fade {
+    opacity: 0.5;
+}
+
+/* Method 12: Setting text alignment */
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Method 13: Setting text decoration */
+.link {
+    text-decoration: underline;
+}
+
+/* Method 14: Setting list properties */
+ul {
+    list-style-type: circle;
+}
+
+/* Method 15: Setting background image */
+.bg-image {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Method 16: Setting box-shadow */
+.shadow {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Method 17: Setting z-index */
+.popup {
+    z-index: 9999;
+}
+
+/* Method 18: Setting transition */
+.transition {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Method 19: Setting overflow */
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-scroll {
+    overflow: scroll;
+}
+
+/* Method 20: Setting text transform */
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
